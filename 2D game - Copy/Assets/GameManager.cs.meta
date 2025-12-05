@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 40c21aca4f25e3143ba6b0802a33bb98
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ballScript: {fileID: 5889503232404218848, guid: e9d83d4d3b5e4104ca7f5584a1b48b5e, type: 3}
+  - gameOverScreen: {instanceID: 0}
+  - leftScoreText: {fileID: 3439365340487347139, guid: 126f239f42d03a144954d14d725616d1, type: 3}
+  - rightScoreText: {fileID: 1257860782631667397, guid: 6ee25b6d3c8b53149a3efe029c0d5fef, type: 3}
+  - leftGoalBehaviour: {instanceID: 0}
+  - rightGoalBehaviour: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

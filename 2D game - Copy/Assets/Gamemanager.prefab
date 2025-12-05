@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7124603760065438605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291211281008112790}
+  - component: {fileID: 4169700290079382639}
+  m_Layer: 0
+  m_Name: Gamemanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1291211281008112790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124603760065438605}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4169700290079382639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124603760065438605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c21aca4f25e3143ba6b0802a33bb98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  ballScript: {fileID: 5889503232404218848, guid: e9d83d4d3b5e4104ca7f5584a1b48b5e, type: 3}
+  gameOverScreen: {fileID: 7530570536626929395, guid: 4f23252e88e65e94c878f75c556cf6f5, type: 3}
+  leftScoreText: {fileID: 3439365340487347139, guid: 126f239f42d03a144954d14d725616d1, type: 3}
+  rightScoreText: {fileID: 1257860782631667397, guid: 6ee25b6d3c8b53149a3efe029c0d5fef, type: 3}
+  leftGoalBehaviour: {fileID: 0}
+  rightGoalBehaviour: {fileID: 0}
+  SCORE: {fileID: 0}
+  rightWall: {fileID: 0}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c7bf3619e93646c44873716603a19c61
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreT: {instanceID: 0}
+  - GameManegerScript: {instanceID: 0}
+  - ballScript: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
